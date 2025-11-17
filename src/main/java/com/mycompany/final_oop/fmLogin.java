@@ -28,7 +28,7 @@ public class fmLogin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        LabelLogin = new javax.swing.JLabel();
+        Title = new javax.swing.JLabel();
         txtUser = new javax.swing.JTextField();
         txtPass = new javax.swing.JTextField();
         LabelUser = new javax.swing.JLabel();
@@ -37,14 +37,14 @@ public class fmLogin extends javax.swing.JFrame {
         LabelPass = new javax.swing.JLabel();
         LabelLogin1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenu2 = new javax.swing.JMenu();
+        SearchMenu1 = new javax.swing.JMenu();
+        LogoutMenu1 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        LabelLogin.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        LabelLogin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        LabelLogin.setText("Computer Repair Shop");
+        Title.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        Title.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Title.setText("Computer Repair Shop");
 
         txtUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,11 +79,11 @@ public class fmLogin extends javax.swing.JFrame {
         LabelLogin1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         LabelLogin1.setText("Login");
 
-        jMenu1.setText("Search Computer");
-        jMenuBar1.add(jMenu1);
+        SearchMenu1.setText("Search Computer");
+        jMenuBar1.add(SearchMenu1);
 
-        jMenu2.setText("Logout");
-        jMenuBar1.add(jMenu2);
+        LogoutMenu1.setText("Logout");
+        jMenuBar1.add(LogoutMenu1);
 
         setJMenuBar(jMenuBar1);
 
@@ -103,12 +103,9 @@ public class fmLogin extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(LabelLogin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(LabelLogin1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())))
+                    .addComponent(Title, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(LabelLogin1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGap(271, 271, 271)
                 .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -118,7 +115,7 @@ public class fmLogin extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(49, 49, 49)
-                .addComponent(LabelLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Title, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(LabelLogin1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -178,13 +175,13 @@ public class fmLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel LabelLogin;
     private javax.swing.JLabel LabelLogin1;
     private javax.swing.JLabel LabelPass;
     private javax.swing.JLabel LabelUser;
+    private javax.swing.JMenu LogoutMenu1;
+    private javax.swing.JMenu SearchMenu1;
+    private javax.swing.JLabel Title;
     private javax.swing.JButton btnLogin;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JTextField txtPass;
     private javax.swing.JTextField txtUser;
