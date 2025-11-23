@@ -51,9 +51,11 @@ public class fmMain extends javax.swing.JFrame {
         txtIssue = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jMenuBar3 = new javax.swing.JMenuBar();
-        jMenu4 = new javax.swing.JMenu();
-        jMenu5 = new javax.swing.JMenu();
+        Main_Bar = new javax.swing.JMenuBar();
+        Main_menu = new javax.swing.JMenu();
+        Main_menuSearch = new javax.swing.JMenuItem();
+        Main_menuMain = new javax.swing.JMenuItem();
+        Main_logout = new javax.swing.JMenu();
 
         jMenuItem1.setText("jMenuItem1");
 
@@ -131,13 +133,20 @@ public class fmMain extends javax.swing.JFrame {
 
         jButton2.setText("CLEAR");
 
-        jMenu4.setText("File");
-        jMenuBar3.add(jMenu4);
+        Main_menu.setText("menu");
 
-        jMenu5.setText("Edit");
-        jMenuBar3.add(jMenu5);
+        Main_menuSearch.setText("Search");
+        Main_menu.add(Main_menuSearch);
 
-        setJMenuBar(jMenuBar3);
+        Main_menuMain.setText("Main");
+        Main_menu.add(Main_menuMain);
+
+        Main_Bar.add(Main_menu);
+
+        Main_logout.setText("Logout");
+        Main_Bar.add(Main_logout);
+
+        setJMenuBar(Main_Bar);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -300,15 +309,17 @@ public class fmMain extends javax.swing.JFrame {
     private javax.swing.JLabel LabelName;
     private javax.swing.JLabel LabelSerial;
     private javax.swing.JLabel LebelPhone;
+    private javax.swing.JMenuBar Main_Bar;
+    private javax.swing.JMenu Main_logout;
+    private javax.swing.JMenu Main_menu;
+    private javax.swing.JMenuItem Main_menuMain;
+    private javax.swing.JMenuItem Main_menuSearch;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
-    private javax.swing.JMenu jMenu5;
     private javax.swing.JMenuBar jMenuBar2;
-    private javax.swing.JMenuBar jMenuBar3;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JTextField txtAccess;
     private javax.swing.JTextField txtBrand;
