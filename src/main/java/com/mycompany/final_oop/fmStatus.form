@@ -81,8 +81,8 @@
                               <Component id="jScrollPane1" min="-2" pref="548" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtStatus" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
-                                      <Component id="LabelStatus" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtStatus" min="-2" pref="159" max="-2" attributes="0"/>
+                                      <Component id="LabelDate" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -91,8 +91,8 @@
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="LabelDate" min="-2" max="-2" attributes="0"/>
                                       <Component id="BoxDate" min="-2" pref="159" max="-2" attributes="0"/>
+                                      <Component id="LabelStatus" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
